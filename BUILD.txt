@@ -1,0 +1,20 @@
+Build bench.exe on Windows (C compiler required):
+
+1) Visual Studio Build Tools: install "Desktop development with C++", then in "x64 Native Tools Command Prompt":
+   cd path\to\repo
+   build.bat
+
+2) Or MinGW-w64: add gcc to PATH, then:
+   build.bat
+
+Run full measurement matrix (long run, ~15-40 min depending on CPU):
+   python scripts\run_all_benchmarks.py
+
+Plots from results.csv:
+   python scripts\make_plots.py
+
+Long-run snapshots (optional):
+   python scripts\run_long_snapshots.py
+   python scripts\make_snapshot_plots.py
+
+Outputs: results.csv, output\*.png

@@ -1,0 +1,17 @@
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+overnight_log.txt
+_build_err.txt
+output/
+*.csv
+*.docx
